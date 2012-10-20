@@ -1,0 +1,15 @@
+#main-content-inner .left .padding {
+	padding: 10px;
+}
+
+#main-content-inner .left {
+	width: 240px;
+	display: inline-block;
+	float: left;
+	margin: 0 5px;
+}
+
+#main-content-inner .right {
+	width: 610px;
+	margin: 0 5px;
+}
