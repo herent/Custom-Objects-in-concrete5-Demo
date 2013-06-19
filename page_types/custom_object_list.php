@@ -1,4 +1,5 @@
-<?php
+<?php defined('C5_EXECUTE') or die(_('Access Denied.'));
+
 Loader::model("custom_object", "custom_objects_demo");
 $txt = Loader::helper("text");
 $c = Page::getCurrentPage();

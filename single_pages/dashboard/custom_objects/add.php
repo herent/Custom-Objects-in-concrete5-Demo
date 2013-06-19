@@ -1,4 +1,3 @@
-
 <?php
 defined('C5_EXECUTE') or die("Access Denied.");
 
@@ -38,6 +37,7 @@ if ($confirmDelete) {
                     <?php print $ih->submit(t('Delete Permanently'), 'ccm-user-form', 'right', 'primary'); ?>
                </div>	
           </div>
+     </form>
      <?php } else {
           ?>
           <?php if ($isUpdate) { ?>
